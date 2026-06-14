@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top right, rgba(110, 231, 255, 0.18), transparent 34rem),
+    linear-gradient(180deg, #f7fbff 0%, #ffffff 38%, #f5f8fc 100%);
+  color: #10233f;
+  font-family: "Tajawal", Arial, sans-serif;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: #b8e3ff;
+  color: #07315d;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.premium-card {
+  @apply border border-white/70 bg-white/80 shadow-premium backdrop-blur-xl;
+}
+
+.focus-ring {
+  @apply focus:outline-none focus:ring-4 focus:ring-royal-200/80;
+}
