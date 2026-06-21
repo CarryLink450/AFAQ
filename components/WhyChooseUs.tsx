@@ -6,7 +6,7 @@ export function WhyChooseUs() {
   return (
     <section id="why" className="py-16 sm:py-20">
       <div className="section-shell">
-        <SectionHeading title="لماذا تختار آفاق كلينك؟" />
+        <SectionHeading title="لماذا تختار د. هيلث كلينك؟" />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {whyChooseUs.map((item, index) => (
             <MotionDiv

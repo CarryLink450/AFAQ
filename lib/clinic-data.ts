@@ -15,8 +15,8 @@ import {
 } from "lucide-react";
 
 export const clinic = {
-  nameAr: "آفاق كلينك",
-  nameEn: "AFAQ CLINIC",
+  nameAr: "د. هيلث كلينك",
+  nameEn: "D. HEALTH CLINIC",
   city: "الرياض",
   area: "حي شبرا / الطريق الدائري الجنوبي",
   address: "الرياض، حي شبرا، الطريق الدائري الجنوبي",
@@ -40,7 +40,7 @@ export const navigation = [
   { label: "الخدمات", href: "#services" },
   { label: "الأطباء", href: "#doctors" },
   { label: "العروض", href: "#offers" },
-  { label: "لماذا آفاق", href: "#why" },
+  { label: "لماذا د. هيلث", href: "#why" },
   { label: "آراء العملاء", href: "#testimonials" },
   { label: "الأسئلة الشائعة", href: "#faq" },
   { label: "تواصل معنا", href: "#booking" }
@@ -157,15 +157,15 @@ export const testimonials = [
 
 export const faqs = [
   {
-    question: "ما هي خدمات آفاق كلينك؟",
-    answer: "تقدم آفاق كلينك خدمات الأسنان، الجلدية، الليزر والتجميل ضمن تجربة طبية حديثة في الرياض."
+    question: "ما هي خدمات د. هيلث كلينك؟",
+    answer: "تقدم د. هيلث كلينك خدمات الأسنان، الجلدية، الليزر والتجميل ضمن تجربة طبية حديثة في الرياض."
   },
   {
     question: "هل يوجد حجز عبر واتساب؟",
     answer: `نعم، يمكن حجز موعد أو الاستفسار عبر واتساب على الرقم ${clinic.mobileDisplay}.`
   },
   {
-    question: "أين تقع آفاق كلينك في الرياض؟",
+    question: "أين تقع د. هيلث كلينك في الرياض؟",
     answer: `تقع العيادة في ${clinic.address}.`
   },
   {

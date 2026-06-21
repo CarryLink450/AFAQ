@@ -18,7 +18,7 @@ export function Hero() {
             عيادات متخصصة في الرياض
           </div>
           <h1 className="max-w-4xl text-4xl font-extrabold leading-tight text-clinic-ink sm:text-5xl lg:text-6xl">
-            آفاق جديدة لصحتك وجمالك في الرياض
+            د. هيلث جديدة لصحتك وجمالك في الرياض
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-9 text-slate-600 sm:text-xl">
             عيادات متخصصة في الأسنان، الجلدية، الليزر والتجميل — رعاية طبية حديثة وتجربة مريحة من أول زيارة.
@@ -60,7 +60,7 @@ export function Hero() {
                   <div className="absolute bottom-5 left-10 right-10 h-8 rounded-full bg-slate-200/70" />
                   <div className="absolute right-5 top-7 rounded-2xl bg-white px-4 py-3 shadow-premium">
                     <p className="text-xs font-bold text-slate-500">رعاية حديثة</p>
-                    <p className="font-extrabold text-royal-700">AFAQ</p>
+                    <p className="font-extrabold text-royal-700">D. Health</p>
                   </div>
                 </div>
               </div>

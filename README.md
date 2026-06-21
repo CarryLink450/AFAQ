@@ -1,6 +1,6 @@
-# آفاق كلينك - AFAQ CLINIC
+# د. هيلث كلينك - D. HEALTH CLINIC
 
-موقع عربي RTL حديث لعيادة آفاق كلينك في الرياض، مبني باستخدام Next.js App Router و TypeScript و Tailwind CSS و Framer Motion.
+موقع عربي RTL حديث لعيادة د. هيلث كلينك في الرياض، مبني باستخدام Next.js App Router و TypeScript و Tailwind CSS و Framer Motion.
 
 ## التشغيل
 

@@ -17,7 +17,7 @@ export function Testimonials() {
                 ))}
               </div>
               <p className="text-xl font-bold leading-9 text-clinic-ink">"{review}"</p>
-              <p className="mt-5 text-sm font-bold text-slate-500">عميل آفاق كلينك</p>
+              <p className="mt-5 text-sm font-bold text-slate-500">عميل د. هيلث كلينك</p>
             </article>
           ))}
         </div>
