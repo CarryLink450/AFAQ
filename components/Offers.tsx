@@ -6,7 +6,7 @@ export function Offers() {
   return (
     <section id="offers" className="bg-gradient-to-l from-royal-900 via-royal-700 to-royal-600 py-16 text-white sm:py-20">
       <div className="section-shell">
-        <SectionHeading title="عروض د. هيلث كلينك" description="عروض موسمية قابلة للتحديث حسب توفرها داخل العيادة." />
+        <SectionHeading title="عروض بيت الأسرة الطبي كلينك" description="عروض موسمية قابلة للتحديث حسب توفرها داخل العيادة." />
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {offers.map((offer) => (
             <article key={offer} className="rounded-3xl border border-white/18 bg-white/12 p-6 backdrop-blur-xl transition hover:-translate-y-1 hover:bg-white/18">

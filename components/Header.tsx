@@ -16,7 +16,9 @@ export function Header() {
           </span>
           <span>
             <span className="block text-xl font-extrabold text-royal-900">{clinic.nameAr}</span>
-            <span className="block text-xs font-bold uppercase tracking-[0.22em] text-slate-500">{clinic.nameEn}</span>
+            {clinic.nameEn ? (
+              <span className="block text-xs font-bold uppercase tracking-[0.22em] text-slate-500">{clinic.nameEn}</span>
+            ) : null}
           </span>
         </a>
 

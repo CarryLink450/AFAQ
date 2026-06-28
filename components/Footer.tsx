@@ -9,7 +9,9 @@ export function Footer() {
             <span className="grid h-12 w-12 place-items-center rounded-2xl bg-white text-xl font-extrabold text-royal-700">آ</span>
             <span>
               <span className="block text-2xl font-extrabold">{clinic.nameAr}</span>
-              <span className="block text-xs font-bold uppercase tracking-[0.22em] text-cyan-100">{clinic.nameEn}</span>
+              {clinic.nameEn ? (
+                <span className="block text-xs font-bold uppercase tracking-[0.22em] text-cyan-100">{clinic.nameEn}</span>
+              ) : null}
             </span>
           </div>
           <p className="mt-5 max-w-sm leading-8 text-slate-300">

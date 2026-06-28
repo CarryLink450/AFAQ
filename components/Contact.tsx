@@ -13,7 +13,7 @@ export function Contact() {
   return (
     <section id="booking" className="bg-gradient-to-br from-royal-900 via-royal-700 to-royal-600 py-16 text-white sm:py-20">
       <div className="section-shell">
-        <SectionHeading title="احجز موعدك الآن" description="املأ بياناتك وسيتواصل معك فريق د. هيلث كلينك لتأكيد الموعد." />
+        <SectionHeading title="احجز موعدك الآن" description="املأ بياناتك وسيتواصل معك فريق بيت الأسرة الطبي كلينك لتأكيد الموعد." />
         <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
           <form
             className="rounded-3xl border border-white/16 bg-white/12 p-5 backdrop-blur-xl sm:p-7"

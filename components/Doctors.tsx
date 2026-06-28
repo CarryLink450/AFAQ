@@ -8,7 +8,7 @@ export function Doctors() {
       <div className="section-shell">
         <SectionHeading title="نخبة من الأطباء والمتخصصين" description="بطاقات مؤقتة إلى حين اعتماد أسماء الفريق الطبي الرسمي." />
         <div className="grid gap-5 md:grid-cols-3">
-          {/* Replace placeholder doctors with real D. Health clinic doctors. */}
+          {/* Replace placeholder doctors with real clinic doctors. */}
           {doctors.map((doctor, index) => (
             <article key={`${doctor.name}-${index}`} className="premium-card overflow-hidden rounded-3xl">
               <div className="aspect-[4/3] bg-gradient-to-br from-royal-100 via-white to-cyan-50 p-6">

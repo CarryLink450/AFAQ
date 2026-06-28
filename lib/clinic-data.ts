@@ -15,8 +15,8 @@ import {
 } from "lucide-react";
 
 export const clinic = {
-  nameAr: "د. هيلث كلينك",
-  nameEn: "D. HEALTH CLINIC",
+  nameAr: "بيت الأسرة الطبي كلينك",
+  nameEn: "",
   city: "الرياض",
   area: "حي شبرا / الطريق الدائري الجنوبي",
   address: "الرياض، حي شبرا، الطريق الدائري الجنوبي",
@@ -40,7 +40,7 @@ export const navigation = [
   { label: "الخدمات", href: "#services" },
   { label: "الأطباء", href: "#doctors" },
   { label: "العروض", href: "#offers" },
-  { label: "لماذا د. هيلث", href: "#why" },
+  { label: "لماذا بيت الأسرة الطبي", href: "#why" },
   { label: "آراء العملاء", href: "#testimonials" },
   { label: "الأسئلة الشائعة", href: "#faq" },
   { label: "تواصل معنا", href: "#booking" }
@@ -157,15 +157,15 @@ export const testimonials = [
 
 export const faqs = [
   {
-    question: "ما هي خدمات د. هيلث كلينك؟",
-    answer: "تقدم د. هيلث كلينك خدمات الأسنان، الجلدية، الليزر والتجميل ضمن تجربة طبية حديثة في الرياض."
+    question: "ما هي خدمات بيت الأسرة الطبي كلينك؟",
+    answer: "تقدم بيت الأسرة الطبي كلينك خدمات الأسنان، الجلدية، الليزر والتجميل ضمن تجربة طبية حديثة في الرياض."
   },
   {
     question: "هل يوجد حجز عبر واتساب؟",
     answer: `نعم، يمكن حجز موعد أو الاستفسار عبر واتساب على الرقم ${clinic.mobileDisplay}.`
   },
   {
-    question: "أين تقع د. هيلث كلينك في الرياض؟",
+    question: "أين تقع بيت الأسرة الطبي كلينك في الرياض؟",
     answer: `تقع العيادة في ${clinic.address}.`
   },
   {
@@ -185,7 +185,7 @@ export const faqs = [
 export const medicalClinicJsonLd = {
   "@context": "https://schema.org",
   "@type": "MedicalClinic",
-  name: `${clinic.nameAr} - ${clinic.nameEn}`,
+  name: clinic.nameEn ? `${clinic.nameAr} - ${clinic.nameEn}` : clinic.nameAr,
   medicalSpecialty: ["Dentistry", "Dermatology", "Cosmetic", "Laser"],
   address: {
     "@type": "PostalAddress",
